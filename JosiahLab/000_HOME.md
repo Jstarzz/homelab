@@ -4,6 +4,9 @@ HOME
 
 Last audited: 2026-03-20 | Vault version: 3.0.0
 
+> [!warning] Historical snapshot
+> This vault describes the home lab as of March 2026. The November 2026 inventory of the Proxmox servers is in the [repository README](../README.md).
+
 ---
 
 ## What This Is
