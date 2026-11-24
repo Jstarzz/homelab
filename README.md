@@ -11,6 +11,7 @@ A small home lab I run for self-hosting, monitoring and local AI. Snapshot as of
 
 - **Remote access:** Tailscale mesh between all nodes. No ports forwarded from the internet.
 - **Monitoring:** Prometheus scrapes node exporters; Grafana dashboards; Portainer for containers.
-- **Next:** a pfSense/OPNsense box in front of the ISP gateway for VLANs and proper firewalling.
+- **Network:** a virtualized OpenWrt router does NAT and smart queue management (low latency under load, per-device priority), with automatic failover to a hardware router if it goes down.
+- **Next:** VLAN segmentation and inter-VLAN firewall rules.
 
 Detailed notes (inventory, network, audit findings) are kept private.
